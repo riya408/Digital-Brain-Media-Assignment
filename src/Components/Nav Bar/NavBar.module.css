@@ -1,0 +1,63 @@
+.NavContainer {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  background-color: black;
+  padding: 0.9rem;
+  font-size: 0.8rem;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  font-family: "Poppins", sans-serif;
+}
+
+.NavListPartOne {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.6rem;
+  padding-left: 6rem;
+  align-items: center;
+}
+
+.NavListPartTwo {
+  display: flex;
+  margin-left: auto;
+  gap: 1.6rem;
+  padding-right: 6rem;
+}
+
+.NavListContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.NavListContainer:hover {
+  color: rgb(181, 181, 181);
+}
+
+.NavListSignupContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: black;
+  background-color: white;
+  font-size: larger;
+  cursor: pointer;
+  padding: 0.5rem 0.8rem;
+  border-radius: 25px;
+}
+
+.NavListSignupContainer:hover {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: black;
+  background-color: rgb(224, 224, 224);
+  font-size: larger;
+  cursor: pointer;
+  padding: 0.5rem 0.8rem;
+  border-radius: 25px;
+}
